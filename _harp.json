@@ -1,0 +1,11 @@
+{
+  "globals" : {
+    "site_name"   : "A Harp &amp; React Boilerplate",
+    "site_description" : "A boilerplate to get you setup harp-ing quickly!",
+    "site_keywords"    : "boilerplate",
+    "facebook_meta"    : {
+      "type"        : "",
+      "image"       : ""
+    }
+  }
+}

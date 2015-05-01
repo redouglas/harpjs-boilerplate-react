@@ -1,0 +1,22 @@
+// Clearfix
+cf()
+  *zoom: 1
+  &:before, &:after
+    content: " "
+    display: table
+  &:after
+    clear: both
+
+// Generate random number
+random(min,max)
+  return floor(math(0, 'random')*(max - min + 1) + min)
+
+// Generate background gradient (veritcal) from start to stop
+bg-gradient(start, stop)
+  background: start
+  background: -moz-linear-gradient(top,  start 0%, stop 100%)
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,start), color-stop(100%,stop))
+  background: -webkit-linear-gradient(top,  start 0%,stop 100%)
+  background: -o-linear-gradient(top,  start 0%,stop 100%)
+  background: -ms-linear-gradient(top,  start 0%,stop 100%)
+  background: linear-gradient(to bottom,  start 0%,stop 100%)
