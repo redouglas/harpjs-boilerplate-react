@@ -2,7 +2,7 @@ var webpack = require('webpack');
 
 module.exports = {
   entry: {
-      app: './js/tools/Main.coffee'
+      app: './_js/tools/Main.coffee'
   },
   watch: false,
   output: {
