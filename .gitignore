@@ -1,0 +1,6 @@
+.DS_Store
+img/.DS_Store
+www/
+www/*
+node_modules/
+build/
